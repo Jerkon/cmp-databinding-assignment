@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/Jerkon/cmp-databinding-assignment/badge.svg?branch=master)](https://coveralls.io/github/Jerkon/cmp-databinding-assignment?branch=master)
+
 # cmp-databinding-assignment
 
 ![GitHub Logo](./src/favicon.ico) [Angular 7 course](https://www.udemy.com/share/100YzMA0ocdV1VRXQ=/) | Section 5 - Practicing Property & Event Binding and View Encapsulation
