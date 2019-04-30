@@ -1,6 +1,6 @@
 # cmp-databinding-assignment
 
-[Angular 7 course](https://www.udemy.com/share/100YzMA0ocdV1VRXQ=/) | Section 5 - Practicing Property & Event Binding and View Encapsulation
+![GitHub Logo](./src/favicon.ico) [Angular 7 course](https://www.udemy.com/share/100YzMA0ocdV1VRXQ=/) | Section 5 - Practicing Property & Event Binding and View Encapsulation
 
 ### Assignment
 
