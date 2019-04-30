@@ -1,0 +1,31 @@
+<div class="row">
+  <div class="float-right">
+    <!-- Main button -->
+    <button
+      class="btn btn-success"
+      (click)="onMainButtonClick()"
+      [disabled]="status == statuses.PLAYING"
+      ><span 
+        class="glyphicon"
+        [ngClass]="{
+          'glyphicon-play': status == statuses.TO_BEGIN,
+          'glyphicon-refresh': status != statuses.TO_BEGIN
+        }"
+      ></span> {{ mainButtonLabel | uppercase }}
+    </button>
+    <!-- Control button -->
+    <button
+      class="btn btn-warning"
+      style="margin-left: 5px;"
+      (click)="onControlButtonClick()"
+      [disabled]="status == statuses.TO_BEGIN"
+      ><span 
+        class="glyphicon"
+        [ngClass]="{
+          'glyphicon-pause': status == statuses.TO_BEGIN || status == statuses.PLAYING,
+          'glyphicon-play': status == statuses.STOPPED
+        }"
+      ></span> {{ controlButtonLabel | uppercase }}
+    </button>
+  </div>
+</div>

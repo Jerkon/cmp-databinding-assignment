@@ -1,0 +1,19 @@
+<app-game-control
+    (emitedNumber)="fireNumber($event)"
+    (reset)="onReset()"
+></app-game-control>
+
+<div class="result col-md-12">
+    <div class="col-md-6 text-center">
+        <app-even
+          *ngFor="let even of evens"
+          [even]="even"
+        ></app-even>
+    </div>
+    <div class="col-md-6 text-center">
+        <app-odd
+          *ngFor="let odd of odds"
+          [odd]="odd"
+        ></app-odd>
+    </div>
+</div>
